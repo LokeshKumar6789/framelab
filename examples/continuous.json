@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "name": "Two spans, connected",
+  "nodes": [
+    {
+      "id": "N1",
+      "x": 0,
+      "y": 0,
+      "support": "pin",
+      "fx": 0,
+      "fy": 0,
+      "mz": 0
+    },
+    {
+      "id": "N2",
+      "x": 4,
+      "y": 0,
+      "support": "rollerY",
+      "fx": 0,
+      "fy": 0,
+      "mz": 0
+    },
+    {
+      "id": "N3",
+      "x": 8,
+      "y": 0,
+      "support": "rollerY",
+      "fx": 0,
+      "fy": 0,
+      "mz": 0
+    }
+  ],
+  "members": [
+    {
+      "id": "M1",
+      "start": "N1",
+      "end": "N2",
+      "e": 200,
+      "a": 60,
+      "i": 8000,
+      "q": -10
+    },
+    {
+      "id": "M2",
+      "start": "N2",
+      "end": "N3",
+      "e": 200,
+      "a": 60,
+      "i": 8000,
+      "q": -10
+    }
+  ]
+}

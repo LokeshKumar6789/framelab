@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "name": "The cantilever experiment",
+  "nodes": [
+    {
+      "id": "N1",
+      "x": 0,
+      "y": 0,
+      "support": "fixed",
+      "fx": 0,
+      "fy": 0,
+      "mz": 0
+    },
+    {
+      "id": "N2",
+      "x": 4,
+      "y": 0,
+      "support": "free",
+      "fx": 0,
+      "fy": -10,
+      "mz": 0
+    }
+  ],
+  "members": [
+    {
+      "id": "M1",
+      "start": "N1",
+      "end": "N2",
+      "e": 200,
+      "a": 60,
+      "i": 8000,
+      "q": 0
+    }
+  ]
+}

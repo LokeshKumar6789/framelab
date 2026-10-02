@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "name": "The everyday portal",
+  "nodes": [
+    {
+      "id": "N1",
+      "x": 0,
+      "y": 0,
+      "support": "fixed",
+      "fx": 0,
+      "fy": 0,
+      "mz": 0
+    },
+    {
+      "id": "N2",
+      "x": 0,
+      "y": 4,
+      "support": "free",
+      "fx": 20,
+      "fy": 0,
+      "mz": 0
+    },
+    {
+      "id": "N3",
+      "x": 6,
+      "y": 4,
+      "support": "free",
+      "fx": 0,
+      "fy": 0,
+      "mz": 0
+    },
+    {
+      "id": "N4",
+      "x": 6,
+      "y": 0,
+      "support": "fixed",
+      "fx": 0,
+      "fy": 0,
+      "mz": 0
+    }
+  ],
+  "members": [
+    {
+      "id": "M1",
+      "start": "N1",
+      "end": "N2",
+      "e": 200,
+      "a": 60,
+      "i": 8000,
+      "q": 0
+    },
+    {
+      "id": "M2",
+      "start": "N2",
+      "end": "N3",
+      "e": 200,
+      "a": 60,
+      "i": 8000,
+      "q": -10
+    },
+    {
+      "id": "M3",
+      "start": "N4",
+      "end": "N3",
+      "e": 200,
+      "a": 60,
+      "i": 8000,
+      "q": 0
+    }
+  ]
+}

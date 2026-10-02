@@ -1,6 +1,6 @@
 # Browser verification record
 
-Verified on 2 October 2026 in the Codex Chromium browser, against both the development build and the final self-contained production HTML.
+Verified on 2 October 2026 in Chromium, against both the development build and the final self-contained production HTML.
 
 | Check | Observed result |
 |---|---|
